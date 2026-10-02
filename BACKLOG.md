@@ -26,6 +26,29 @@ to be made with Capture, as the harness's first real use).
 - Memory is keyed to the folder, so the `memory/` folder has to be copied too.
 - Afterwards: check new messages land in the copy, then delete the original.
 
+## 2. Profile: Rob's preferences and style
+
+**Status:** to be designed with the meta harness once it is built, possibly
+with a literature review of how others keep such profiles.
+
+**Seen:** 2 Oct 2026. Rob: the repo's architecture should stay minimal and
+readable, but his preferences and style "are easier to just dump out in one
+big block that isn't necessarily intended to be human readable", and a skill
+run in a new context would lose them.
+
+**What is known:**
+- His preferences are currently scattered: his opening message in the first
+  harness session; two memory files for `~/code/harness`; seven feedback
+  files in the Colax project's memory (ask on forks, verify before asserting,
+  readability over formalism, references are Rob's, forward not polish, Rob
+  does the commits, TikZiT style); and five rules in the entry-point skill.
+  Memory is keyed to a folder, so none of it travels between projects.
+- Two kinds of content: architecture, kept minimal for Rob to read; and the
+  profile, bulkier and mainly for Claude to read.
+- Open questions: where it lives (this library is the natural place); how a
+  session in any project gets it; how Capture feeds it into new skills; how
+  a correction that is general, not specific to one skill, gets added to it.
+
 ## Unranked candidates
 
 Seen in Rob's Colax sessions (Aug to Oct 2026), surveyed on 2 Oct 2026.
@@ -48,7 +71,5 @@ Counts are rough keyword matches over about 1,650 of his messages.
   back", "in my voice").
 - **Literature check with verbatim quotes.** About 160 literature, novelty
   and citation requests; quotes must come from the source with a location.
-- **Working rules.** Standing preferences now in the Colax project's memory
-  folder (ask on forks, verify before asserting, references are Rob's).
 - **Scenario-based review for autoformalization.** A solver generates
   concrete cases from a formal model for an auditor to accept or reject.
